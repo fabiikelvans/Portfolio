@@ -40,7 +40,7 @@ function Marquees() {
 
     return (
         <div ref={scrollRef} className='pb-32'>
-        <div className='overflow-hidden bg-gray-200 dark:bg-gray-800 line relative flex items-center text-3xl  w-full h-full max-w-[100vw]'>
+        <div className='overflow-hidden bg-gray-200 dark:bg-gray-700 line relative flex items-center text-3xl  w-full h-full max-w-[100vw]'>
 
             <Marquee gradient={false} speed={100} className=''>
 
