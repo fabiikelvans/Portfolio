@@ -9,7 +9,7 @@ function Intro() {
         <div className='spacing'>
             <div className='flex flex-col md:flex-row items-center'>
                 <div className={'w-[100%] md:w-[50%]'}>
-                    <h3 className='text-2xl md:text-3xl font-extralight'>
+                    <h3 className='text-2xl md:text-3xl xl:text-4xl font-extralight'>
                         {/* eslint-disable-next-line react/no-unescaped-entities */}
                         Hello, I'm Fabian a creative developer and interaction designer based in Nairobi, Kenya.
                         {/* eslint-disable-next-line react/no-unescaped-entities */}
