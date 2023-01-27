@@ -17,28 +17,28 @@ function Footer() {
                 <div className='flex  flex-col space-y-4 sm:space-y-0 sm:flex-row sm:space-x-10'>
                     <div className='flex items-center space-x-2'>
                         <BsGithub/>
-                        <Link href={''} >
+                        <Link target={'_blank'} href={'https://github.com/fabiikelvans'} >
                         <h4 className='transition duration-300 hover:underline hover:text-[#F05454]'>Github</h4>
                         </Link>
                     </div>
 
                     <div className='flex items-center space-x-2'>
                         <BsBehance/>
-                        <Link href={''}>
+                        <Link target={'_blank'} href={'https://www.behance.net/fabiikelvans'}>
                         <h4 className='transition duration-300 hover:underline hover:text-[#F05454]'>Behance</h4>
                         </Link>
                     </div>
 
                     <div className='flex items-center space-x-2'>
                         <BsLinkedin/>
-                        <Link href={''}>
+                        <Link target={'_blank'} href={'https://www.linkedin.com/in/fabian-kelvans-41343386/'}>
                         <h4 className='transition duration-300 hover:underline hover:text-[#F05454]'>LinkedIn</h4>
                         </Link>
                     </div>
 
                     <div className='flex items-center space-x-2'>
                         <BsTwitter/>
-                        <Link href={''}>
+                        <Link target={'_blank'} href={'https://twitter.com/Fabian_Kelvans'}>
                         <h4 className='transition duration-300 hover:underline hover:text-[#F05454]'>Twitter</h4>
                         </Link>
                     </div>
