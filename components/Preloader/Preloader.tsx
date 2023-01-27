@@ -68,16 +68,16 @@ function Preloader() {
 
     return (
         <div ref={mainRef} className='relative'>
-            <div className="main-container fixed top-0 left-0 h-[100vh] w-[100vw] z-40 bg-white dark:bg-[#121b14] text-[#121b14] dark:text-white">
+            <div className="main-container fixed top-0 left-0 h-[100vh] w-[100vw] z-40 bg-white dark:bg-[#222222] text-[#121b14] dark:text-white">
 
                 <div className='flex justify-center mt-24'>
                     <h1 className='text-6xl logo' style={script.style}>Fabii Kelvans</h1>
                 </div>
                 <div className="relative">
 
-                    <div className="box1" />
-                    <div className="box2" />
-                    <div className="box3" />
+                    <div className="box1 bg-[#F05454]" />
+                    <div className="box2 bg-[#F05454]" />
+                    <div className="box3 bg-[#F05454]" />
                 </div>
 
             </div>

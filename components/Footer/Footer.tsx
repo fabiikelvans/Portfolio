@@ -18,28 +18,28 @@ function Footer() {
                     <div className='flex items-center space-x-2'>
                         <BsGithub/>
                         <Link href={''} >
-                        <h4 className='transition duration-300 hover:underline'>Github</h4>
+                        <h4 className='transition duration-300 hover:underline hover:text-[#F05454]'>Github</h4>
                         </Link>
                     </div>
 
                     <div className='flex items-center space-x-2'>
                         <BsBehance/>
                         <Link href={''}>
-                        <h4 className='transition duration-300 hover:underline'>Behance</h4>
+                        <h4 className='transition duration-300 hover:underline hover:text-[#F05454]'>Behance</h4>
                         </Link>
                     </div>
 
                     <div className='flex items-center space-x-2'>
                         <BsLinkedin/>
                         <Link href={''}>
-                        <h4 className='transition duration-300 hover:underline'>LinkedIn</h4>
+                        <h4 className='transition duration-300 hover:underline hover:text-[#F05454]'>LinkedIn</h4>
                         </Link>
                     </div>
 
                     <div className='flex items-center space-x-2'>
                         <BsTwitter/>
                         <Link href={''}>
-                        <h4 className='transition duration-300 hover:underline'>Twitter</h4>
+                        <h4 className='transition duration-300 hover:underline hover:text-[#F05454]'>Twitter</h4>
                         </Link>
                     </div>
                 </div>

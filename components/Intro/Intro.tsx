@@ -11,7 +11,7 @@ function Intro() {
                 <div className={'w-[100%] md:w-[50%]'}>
                     <h3 className='text-2xl md:text-3xl font-extralight'>
                         {/* eslint-disable-next-line react/no-unescaped-entities */}
-                        iHola, I'm Fabian a developer and designer based in Nairobi, Kenya.
+                        Hello, I'm Fabian a creative developer and interaction designer based in Nairobi, Kenya.
                         {/* eslint-disable-next-line react/no-unescaped-entities */}
                         I'm passionate about creating artisan digital experiences with a focus on motion and interaction.</h3>
                 </div>

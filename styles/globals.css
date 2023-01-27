@@ -5,7 +5,7 @@
 
 @layer base {
     body{
-        @apply bg-[#fafbfd] dark:bg-[#121b14] text-[#121b14] dark:text-white overflow-x-hidden;
+        @apply bg-[#F8F8F8] dark:bg-[#222831] text-[#222831] dark:text-white overflow-x-hidden;
     }
 }
 
@@ -23,7 +23,6 @@
     left: 0;
     height: 100vh;
     width: 33.4333vw;
-    background-color: black;
     z-index: 10;
 }
 
@@ -33,7 +32,6 @@
     left: 33.333%;
     height: 100vh;
     width: 33.4333vw;
-    background-color: black;
     z-index: 10;
 }
 
@@ -43,7 +41,6 @@
     left: 66.666%;
     height: 100vh;
     width: 33.4333vw;
-    background-color: black;
     z-index: 10;
 }
 

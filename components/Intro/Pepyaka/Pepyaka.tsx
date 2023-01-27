@@ -56,7 +56,7 @@ const Particles = (props : Particles) => {
       value: radius
     },
     uColor: {
-      value: new THREE.Color('#a0a0a0')
+      value: new THREE.Color('#ff7979')
     }
   }), [])
 
@@ -123,10 +123,10 @@ function Pepyaka() {
         value: 0.0,
       },
       u_sky: {
-        value: new THREE.Color('#00ffcf')
+        value: new THREE.Color('#ffe700')
       },
       u_ground: {
-        value: new THREE.Color('#818CF8')
+        value: new THREE.Color('#a49402')
       }
     }),
     []

@@ -44,17 +44,19 @@ function Header() {
                         </span> <span> </span>
                         &
                         <span> </span>
-                        <span className='opacity-80 transition duration-300 hover:underline'>Developer</span>
+                        <span className='text-[#F05454] transition duration-300 hover:underline'>Developer</span>
                     </span><br/>
                     <span>Based in Nairobi</span>
                 </h1>
 
-                <Canvas>
-                    <Suspense>
-                        <Wavey/>
-                    </Suspense>
-                    <OrbitControls enableZoom={false} enableRotate={false}/>
-                </Canvas>
+                <div className='w-[40%] mx-auto'>
+                    <Canvas>
+                        <Suspense>
+                            <Wavey/>
+                        </Suspense>
+                        <OrbitControls enableZoom={false} enableRotate={false}/>
+                    </Canvas>
+                </div>
 
                 <div className='text-3xl flex justify-center mt-8 animate-bounce'>
                     <GiBroadheadArrow className='rotate-45 transform'/>

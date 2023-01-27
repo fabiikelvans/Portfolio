@@ -51,16 +51,16 @@ function Projects() {
             <div className='grid grid-cols-1 md:grid-cols-2 gap-20 line'>
                 <div className='relative h-fit group'>
                     <Link target="_blank" href={'https://sherman-six.vercel.app/'}>
-                        <div className='h-[70vh] md:h-[120vh] w-full mx-auto relative'>
+                        <div className='h-[60vh] md:h-[120vh] w-full mx-auto relative'>
                             <Image
                                 src="https://images.unsplash.com/photo-1618220179428-22790b461013?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2127&q=80"
                                 alt='logo' fill className='object-cover rounded-3xl'/>
                         </div>
                         <div className='absolute bottom-10 left-10 flex flex-row justify-between items-center space-x-10 md:space-x-20'>
-                            <div className='backdrop-blur-sm bg-white/80 dark:bg-[#121b14]/80 w-fit h-fit px-8 py-4 rounded-full'>
+                            <div className='backdrop-blur-sm bg-white/80 dark:bg-[#222831]/80 w-fit h-fit px-8 py-4 rounded-full'>
                                 <h1 style={header.style} className='text-2xl md:text-3xl'>Sherman</h1>
                             </div>
-                            <div className='backdrop-blur-sm bg-white/80 dark:bg-[#121b14] w-16 h-16 text-2xl md:text-3xl px-4 py-2 rounded-full flex justify-center items-center md:hidden group-hover:flex'>
+                            <div className='backdrop-blur-sm bg-white/80 dark:bg-[#222831] w-16 h-16 text-2xl md:text-3xl px-4 py-2 rounded-full flex justify-center items-center md:hidden group-hover:flex'>
                                 <GiArrowhead className='-rotate-90'/>
                             </div>
                         </div>
@@ -70,17 +70,17 @@ function Projects() {
 
                 <div className='relative h-fit group'>
                     <Link target="_blank" href={'https://droppie-app.vercel.app/'} >
-                    <div className='h-[70vh] md:h-[80vh] w-full mx-auto relative'>
+                    <div className='h-[60vh] md:h-[80vh] w-full mx-auto relative'>
                         <Image
                             src="https://images.unsplash.com/photo-1643101681441-0c38d714fa14?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80"
                             alt='logo' fill className='object-cover rounded-3xl'/>
                     </div>
 
                     <div className='absolute bottom-10 left-10 flex flex-row justify-between items-center space-x-10 md:space-x-20'>
-                        <div className='backdrop-blur-sm bg-white/80 dark:bg-[#121b14]/80 w-fit h-fit px-8 py-4 rounded-full'>
+                        <div className='backdrop-blur-sm bg-white/80 dark:bg-[#222831]/80 w-fit h-fit px-8 py-4 rounded-full'>
                             <h1 style={header.style} className='text-2xl md:text-3xl'>Droppie</h1>
                         </div>
-                        <div className='backdrop-blur-sm bg-white/80 dark:bg-[#121b14] w-16 h-16 text-2xl md:text-3xl px-4 py-2 rounded-full flex justify-center items-center md:hidden group-hover:flex'>
+                        <div className='backdrop-blur-sm bg-white/80 dark:bg-[#222831] w-16 h-16 text-2xl md:text-3xl px-4 py-2 rounded-full flex justify-center items-center md:hidden group-hover:flex'>
                             <GiArrowhead className='-rotate-90'/>
                         </div>
                     </div>
@@ -92,7 +92,7 @@ function Projects() {
             <div className='my-24 grid grid-cols-1 gap-20 line'>
                 <div className='relative h-fit group '>
 
-                    <div className='h-[70vh] md:h-[120vh] w-full md:w-[60%] mx-auto relative'>
+                    <div className='h-[60vh] md:h-[120vh] w-full md:w-[60%] mx-auto relative'>
                         <Image
                             src="https://images.unsplash.com/photo-1555820585-c5ae44394b79?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1925&q=80"
                             alt='logo' fill className='object-cover rounded-3xl w-fit'/>
@@ -100,10 +100,10 @@ function Projects() {
 
                     <Link target="_blank" href={'https://aster-beauty-shop.vercel.app/'} >
                     <div className='absolute bottom-10 left-[10%] md:left-[30%] flex flex-row justify-between items-center space-x-10 md:space-x-20'>
-                        <div className='backdrop-blur-sm bg-white/80 dark:bg-[#121b14]/80 w-fit h-fit px-8 py-4 rounded-full'>
+                        <div className='backdrop-blur-sm bg-white/80 dark:bg-[#222831]/80 w-fit h-fit px-8 py-4 rounded-full'>
                             <h1 style={header.style} className='text-2xl md:text-3xl'>Aster Beauty</h1>
                         </div>
-                        <div className='backdrop-blur-sm bg-white/80 dark:bg-[#121b14] w-16 h-16 text-2xl md:text-3xl px-4 py-2 rounded-full flex justify-center items-center md:hidden group-hover:flex'>
+                        <div className='backdrop-blur-sm bg-white/80 dark:bg-[#222831] w-16 h-16 text-2xl md:text-3xl px-4 py-2 rounded-full flex justify-center items-center md:hidden group-hover:flex'>
                             <GiArrowhead className='-rotate-90'/>
                         </div>
                     </div>
@@ -115,17 +115,17 @@ function Projects() {
             <div className='grid grid-cols-1 md:grid-cols-2 gap-20 line'>
                 <div className='relative h-fit group'>
                     <Link target="_blank" href={'https://white-studio.vercel.app/'}>
-                    <div className='h-[70vh] md:h-[120vh] w-full mx-auto relative'>
+                    <div className='h-[60vh] md:h-[120vh] w-full mx-auto relative'>
                         <Image
                             src="https://images.unsplash.com/photo-1606216836537-eea72a939072?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80"
                             alt='logo' fill className='object-cover rounded-3xl'/>
                     </div>
 
                     <div className='absolute bottom-10 left-10 flex flex-row justify-between items-center space-x-10 md:space-x-20'>
-                        <div className='backdrop-blur-sm bg-white/80 dark:bg-[#121b14]/80 w-fit h-fit px-8 py-4 rounded-full'>
+                        <div className='backdrop-blur-sm bg-white/80 dark:bg-[#222831]/80 w-fit h-fit px-8 py-4 rounded-full'>
                             <h1 style={header.style} className='text-2xl md:text-3xl'>White Studio</h1>
                         </div>
-                        <div className='backdrop-blur-sm bg-white/80 dark:bg-[#121b14] w-16 h-16 text-2xl md:text-3xl px-4 py-2 rounded-full flex justify-center items-center md:hidden group-hover:flex'>
+                        <div className='backdrop-blur-sm bg-white/80 dark:bg-[#222831] w-16 h-16 text-2xl md:text-3xl px-4 py-2 rounded-full flex justify-center items-center md:hidden group-hover:flex'>
                             <GiArrowhead className='-rotate-90'/>
                         </div>
                     </div>
@@ -134,17 +134,17 @@ function Projects() {
 
                 <div className='relative h-fit group'>
                     <Link target="_blank" href={'https://bloggy-taupe.vercel.app/'}>
-                    <div className='h-[70vh] md:h-[80vh] w-full mx-auto relative'>
+                    <div className='h-[60vh] md:h-[80vh] w-full mx-auto relative'>
                         <Image
                             src="https://images.unsplash.com/photo-1616440347437-b1c73416efc2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
                             alt='logo' fill className='object-cover rounded-3xl'/>
                     </div>
 
                     <div className='absolute bottom-10 left-10 flex flex-row justify-between items-center space-x-10 md:space-x-20'>
-                        <div className='backdrop-blur-sm bg-white/80 dark:bg-[#121b14]/80 w-fit h-fit px-8 py-4 rounded-full'>
+                        <div className='backdrop-blur-sm bg-white/80 dark:bg-[#222831]/80 w-fit h-fit px-8 py-4 rounded-full'>
                             <h1 style={header.style} className='text-2xl md:text-3xl'>Bloggy</h1>
                         </div>
-                        <div className='backdrop-blur-sm bg-white/80 dark:bg-[#121b14] w-16 h-16 text-2xl md:text-3xl px-4 py-2 rounded-full flex justify-center items-center md:hidden group-hover:flex'>
+                        <div className='backdrop-blur-sm bg-white/80 dark:bg-[#222831] w-16 h-16 text-2xl md:text-3xl px-4 py-2 rounded-full flex justify-center items-center md:hidden group-hover:flex'>
                             <GiArrowhead className='-rotate-90'/>
                         </div>
                     </div>
