@@ -6,7 +6,7 @@ function Nav() {
     return (
         <div className='sticky top-0 left-0 z-20'>
             <div className='px-10 md:px-16 py-8 flex justify-between md:items-center'>
-                <h1 className='text-2xl text-[#F05454]'>
+                <h1 className='text-2xl'>
                     <Link style={script.style} href={'/'}> Fabii </Link>
                 </h1>
 
