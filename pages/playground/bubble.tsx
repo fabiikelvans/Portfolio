@@ -5,8 +5,8 @@ import {Canvas} from "@react-three/fiber";
 import {OrbitControls} from "@react-three/drei";
 import Link from "next/link";
 import {GiReturnArrow} from "react-icons/gi";
-import BubbleMain from "@/components/Book/Bubble/Bubble";
 import {jost} from "@/pages";
+import BubbleMain from "@/components/Shaders/Bubble/Bubble";
 
 function Bubble() {
     return (

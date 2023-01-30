@@ -6,8 +6,8 @@ import Blob_02 from "@/components/Shaders/Blob-02/Blob-02";
 import {OrbitControls} from "@react-three/drei";
 import Link from "next/link";
 import {GiReturnArrow} from "react-icons/gi";
-import Pepyaka from "@/components/Book/Pepyaka/Pepyaka";
 import {jost} from "@/pages";
+import Pepyaka from "@/components/Shaders/Pepyaka/Pepyaka";
 
 function PepyakaMain() {
     return (

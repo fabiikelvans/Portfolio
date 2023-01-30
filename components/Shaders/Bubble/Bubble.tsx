@@ -18,6 +18,8 @@ const Particles = (props : any) => {
   const points = useRef<PointsProps>();
   const hover = useRef(false);
 
+
+
   // Generate our positions attributes array
   const particlesPosition = useMemo(() => {
     const positions = new Float32Array(count * 3);
@@ -45,6 +47,37 @@ const Particles = (props : any) => {
     return positions;
   }, [count]);
 
+
+  // Debug
+//@ts-ignore
+  const [{ scale, wireframe, color }, set] = useControls("Blob",
+      () => ({
+        transform: folder({
+          scale : {
+            value: 1.2,
+            min: 0.4,
+            max:3, step:
+                0.2,}
+        }),
+        material:  folder({
+          wireframe: false,
+          color: {
+            value: '#ffa600', //@ts-ignore
+            onChange: (v) => points.current && points.current.material.uniforms.uColor.value.set(v),
+          },
+        }),
+
+        reset: button(() => {
+          set({
+            scale: 1.42,
+            wireframe: false, //@ts-ignore
+            color: '#ffa600',
+          })
+        })
+      })
+  );
+
+
   const uniforms = useMemo(() => ({
     uTime: {
       value: 0.0
@@ -56,7 +89,7 @@ const Particles = (props : any) => {
       value: radius
     },
     uColor: {
-      value: new THREE.Color('#ffffff')
+      value: new THREE.Color('#ffa600')
     }
   }), [])
 
@@ -80,7 +113,7 @@ const Particles = (props : any) => {
   return (
       <points //@ts-ignore
           ref={points}
-          scale={2.4}
+          scale={scale}
       >
         <bufferGeometry>
           <bufferAttribute
@@ -101,7 +134,7 @@ const Particles = (props : any) => {
 };
 
 
-function Bubble() {
+function BubbleMain() {
 
 
   return (
@@ -113,4 +146,4 @@ function Bubble() {
   )
 }
 
-export default Bubble
+export default BubbleMain

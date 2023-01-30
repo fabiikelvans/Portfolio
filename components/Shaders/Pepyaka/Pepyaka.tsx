@@ -57,7 +57,7 @@ const Particles = (props : Particles) => {
       value: radius
     },
     uColor: {
-      value: new THREE.Color('#ffe700')
+      value: new THREE.Color('#ff7979')
     }
   }), [])
 
@@ -87,7 +87,7 @@ const Particles = (props : Particles) => {
   return (
       <points //@ts-ignore
           ref={points}
-          scale={1.7}
+          scale={1.2}
       >
         <bufferGeometry>
           <bufferAttribute
@@ -124,27 +124,39 @@ function Pepyaka() {
   }, []);
 
   // Debug
-//   const [{ scale, wireframe }, set] = useControls("Blob",
-//   () => ({
-//     transform: folder({
-//       scale : {
-//         value: 1.5,
-//         min: 0.4,
-//         max:3, step:
-//         0.2,}
-//     }),
-//     material:  folder({
-//       wireframe: false,
-//     }),
-//
-//     reset: button(() => {
-//       set({
-//         scale: 1.5,
-//         wireframe: false,
-//       })
-//     })
-//   })
-// );
+//@ts-ignore
+  const [{ scale, wireframe, sky_color, ground_color }, set] = useControls("Blob",
+      () => ({
+        transform: folder({
+          scale : {
+            value: 1.2,
+            min: 0.4,
+            max:3, step:
+                0.2,}
+        }),
+        material:  folder({
+          wireframe: false,
+          sky_color: {
+            value: '#ffffff', //@ts-ignore
+            onChange: (v) => mesh.current && mesh.current.material.uniforms.u_sky.value.set(v),
+          },
+          ground_color: {
+            value: '#a1f719', //@ts-ignore
+            onChange: (v) => mesh.current && mesh.current.material.uniforms.u_ground.value.set(v),
+          }
+        }),
+
+        reset: button(() => {
+          set({
+            scale: 1.2,
+            wireframe: false, //@ts-ignore
+            sky_color: '#ffffff',
+            ground_color: '#a1f719'
+          })
+        })
+      })
+  );
+
 
   const uniforms = useMemo(
     () => ({
@@ -155,10 +167,10 @@ function Pepyaka() {
         value: 0.0,
       },
       u_sky: {
-        value: new THREE.Color('#ffe700')
+        value: new THREE.Color(sky_color)
       },
       u_ground: {
-        value: new THREE.Color('#a49402')
+        value: new THREE.Color(ground_color)
       }
     }),
     []
@@ -185,7 +197,7 @@ function Pepyaka() {
     <mesh //@ts-ignore
       ref={mesh}
       position={[0, 0, 0]}
-      scale={2.1}
+      scale={scale}
       // onPointerOver={() => (hover.current = true)}
       // onPointerOut={() => (hover.current = false)}
     >
@@ -195,7 +207,7 @@ function Pepyaka() {
         fragmentShader={fragmentShader}
         vertexShader={vertexShader}
         uniforms={uniforms}
-        wireframe={false}
+        wireframe={wireframe}
       />
 
     </mesh>
