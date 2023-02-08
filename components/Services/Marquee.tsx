@@ -45,7 +45,7 @@ function Marquees() {
             <Marquee gradient={false} speed={100} className=''>
 
                 <div className='mr-[2.5rem] py-[2rem]'>
-                    Next JS
+                    Interaction Design
                 </div>
 
                 <div className='mr-[2.5rem] py-[2rem]'>
@@ -53,42 +53,36 @@ function Marquees() {
                 </div>
 
                 <div className='mr-[2.5rem] py-[2rem]'>
-                    React JS
+                    Development
                 </div>
                 <div className='mr-[2.5rem] py-[2rem]'>
                     <GiPolarStar/>
                 </div>
 
                 <div className='mr-[2.5rem] py-[2rem]'>
-                    Three JS
-                </div>
-                <div className='mr-[2.5rem] py-[2rem]'>
-                    <GiPolarStar/>
-                </div>
-
-                <div className='mr-[2.5rem] py-[2rem] '>
-                    GSAP
-                </div>
-                <div className='mr-[2.5rem] py-[2rem]'>
-                    <GiPolarStar/>
-                </div>
-
-                <div className='mr-[2.5rem] py-[2rem] '>
-                    Tailwind
-                </div>
-                <div className='mr-[2.5rem] py-[2rem]'>
-                    <GiPolarStar/>
-                </div>
-
-                <div className='mr-[2.5rem] py-[2rem] '>
-                    Sanity
-                </div>
-                <div className='mr-[2.5rem] py-[2rem]'>
-                    <GiPolarStar/>
-                </div>
-
-                <div className='mr-[2.5rem] py-[2rem] '>
                     UI/UX
+                </div>
+                <div className='mr-[2.5rem] py-[2rem]'>
+                    <GiPolarStar/>
+                </div>
+
+                <div className='mr-[2.5rem] py-[2rem] '>
+                    Creative
+                </div>
+                <div className='mr-[2.5rem] py-[2rem]'>
+                    <GiPolarStar/>
+                </div>
+
+
+                <div className='mr-[2.5rem] py-[2rem] '>
+                    Frontend
+                </div>
+                <div className='mr-[2.5rem] py-[2rem]'>
+                    <GiPolarStar/>
+                </div>
+
+                <div className='mr-[2.5rem] py-[2rem] '>
+                    Branding
                 </div>
                 <div className='mr-[2.5rem] py-[2rem]'>
                     <GiPolarStar/>
